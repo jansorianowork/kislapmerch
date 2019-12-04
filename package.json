@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "kislap merch",
   "main": "index.js",
+  "homepage": "https://jansorianowork.github.io/kislapmerch",
   "scripts": {
-    "test": "none"
+    "deploy": "gh-pages -d dist"
   },
   "author": "jan soriano",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.1.1"
+  }
 }

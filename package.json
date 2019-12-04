@@ -1,0 +1,11 @@
+{
+  "name": "kislap",
+  "version": "1.0.0",
+  "description": "kislap merch",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "author": "jan soriano",
+  "license": "MIT"
+}

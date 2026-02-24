@@ -1,15 +1,21 @@
 {
-  "name": "kislap",
-  "version": "1.0.0",
-  "description": "kislap merch",
-  "main": "index.js",
-  "homepage": "https://jansorianowork.github.io/kislapmerch",
-  "scripts": {
-    "deploy": "gh-pages -d dist"
-  },
-  "author": "jan soriano",
-  "license": "MIT",
-  "dependencies": {
-    "gh-pages": "^2.1.1"
-  }
+	"name": "kislap",
+	"version": "1.0.0",
+	"description": "kislap merch",
+	"main": "index.js",
+	"homepage": "https://jansorianowork.github.io/kislapmerch",
+	"scripts": {
+		"deploy": "gh-pages -d dist"
+	},
+	"author": "jan soriano",
+	"license": "MIT",
+	"dependencies": {
+		"gh-pages": "^2.1.1"
+	},
+	"resolutions": {
+		"minimatch": "^9.0.6"
+	},
+	"overrides": {
+		"minimatch": "^9.0.6"
+	}
 }
